@@ -1,0 +1,20 @@
+{
+  "realm": "test-realm",
+  "auth-server-url": "http://localhost:8080",
+  "resource": "sso-client",
+  "credentials": {
+    "secret": "m2bdSKgzVxUnroPEuYZGpp3oruu8Rv5b"
+  },
+  "http-method-as-scope": true,
+  "paths": [
+    {
+      "path": "/swagger-ui/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/v3/api-docs/*",
+      "enforcement-mode": "DISABLED"
+    }    
+  ]
+}
+
